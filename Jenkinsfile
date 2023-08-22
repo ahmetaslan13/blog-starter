@@ -10,7 +10,7 @@ pipeline{
 		stage('Build') {
 
 			steps {
-				sh 'docker build -t eaglehaslanded/node:latest .'
+				sh 'docker build -t ahmetaslan/node:latest .'
 			}
 		}
 
@@ -24,7 +24,7 @@ pipeline{
 		stage('Push') {
 
 			steps {
-				sh 'docker push eaglehaslanded/node:latest'
+				sh 'docker push ahmetaslan/node:latest'
 			}
 		}
 	}
