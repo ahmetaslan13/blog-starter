@@ -44,7 +44,7 @@ Docker, Jenkins, GitHub
 
 * Create Github Repo and Clone
 
-** Create a repo in the Github. Assume the repo name is fdm-group.
+** Create a repo in the Github. Assume the repo name is test.
 
 ``` bash
 git clone URL of your repo
@@ -52,7 +52,7 @@ git clone URL of your repo
 * Create NodeJS Application
 
 ``` bash
-cd fdm-group
+cd test
 ```
 ** Initiate the NodeJS application using the below command and fill in the prompted details. And then, install Express JS server.
 
